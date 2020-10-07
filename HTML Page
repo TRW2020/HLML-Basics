@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+  <title>Tech Project #4</title>
+</head>
+<body>
+
+<h1 title="Tyler Wildrick & Co. - Customer Information">Tyler Wildrick & Co. 
+- Customer Information</h1>
+
+<p> Please enter the customer's first & last names, and email below, then click submit.</p>
+
+<form autocomplete="on">
+  <fieldset>
+    <legend>Personal Information</legend>
+      <label for="fname">First Name:</label><br>
+      <input type="text" id="fname" name="fname" value="First" autofocus><br>
+      <label for="lname">Last Name:</label><br>
+      <input type="text" id="lname" name="lname" value="Last"><br>
+      <label for="eaddress">Email Address:</label><br>
+      <input type="email" id="eaddress" name="eaddress" value ="blank@gmail.com"><br><br>
+      <input type="button" value="Submit Data">
+      <input type="reset">
+  </fieldset>
+</form>
+
+</body>
+</html>
+
